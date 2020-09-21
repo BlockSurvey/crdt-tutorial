@@ -1,0 +1,16 @@
+<!-- Field for entering tasks -->
+<input type="text" [(ngModel)]='value' >
+
+<button (click)="insert()">Submit</button>
+
+<!-- Button for disconnecting/connecting connection between users -->
+<button (click)="connect()">{{textContent}}</button>
+
+
+<!-- Showing Task that has been entered by multiple users -->
+
+<h1>List of Tasks :</h1>
+
+<p *ngFor="let item of yarray">
+    {{item}}
+</p>
