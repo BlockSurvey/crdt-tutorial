@@ -23,15 +23,15 @@ export class DemoComponent implements OnInit {
   constructor() {
 
     // String data in indexdb of browser
-    const indexeddbProvider = new IndexeddbPersistence('newFile', this.ydoc)
+    const indexeddbProvider = new IndexeddbPersistence('TodoDoc', this.ydoc)
 
     // Getting contents of array from doc created.
-    this.yarray = this.ydoc.getArray("newFile");
+    this.yarray = this.ydoc.getArray("TodoDoc");
 
-    // Creating a websocket for connection between users for a particular doc.
+    // Creating a websocket connection between users for a particular doc.
     this.websocketProvider = new WebsocketProvider(
       "wss://demos.yjs.dev",
-      "newFile",
+      "TodoDoc",
       this.ydoc
     );
   }
@@ -55,7 +55,7 @@ export class DemoComponent implements OnInit {
   insert() {
     this.array = [];
     this.array.push(this.value);
-    this.ydoc.getArray("newFile").insert(0, this.array);
+    this.ydoc.getArray("TodoDoc").insert(0, this.array);
     this.value = "";
     this.demo();
   }

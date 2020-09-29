@@ -1,16 +1,38 @@
 <!-- Field for entering tasks -->
-<input type="text" [(ngModel)]='value' >
+<div class="container">
+  <div class="col-12">
+    <h4>Add Todo</h4>
+    <br />
+    <div class="row mt-1" style="height: 80px">
+      <div class="col-1 d-none col-md-1 d-md-block"></div>
+      <div
+        class="col-12 col-md-10 d-flex justify-content-center align-items-center text-light h3"
+      >
+        <!-- Input Field for adding Todo -->
+        <div class="col-lg-12">
+          <input type="text" class="form-control textbox" [(ngModel)]="value" />
+        </div>
 
-<button (click)="insert()">Submit</button>
+        <div class="col-1"></div>
 
-<!-- Button for disconnecting/connecting connection between users -->
-<button (click)="connect()">{{textContent}}</button>
+        <button (click)="insert()" class="btn button">ADD</button>
+      </div>
 
+      <div class="col-3 d-none col-md-3 d-md-block"></div>
+    </div>
 
-<!-- Showing Task that has been entered by multiple users -->
+    <!-- Showing Task that has been entered by multiple users -->
+    <h4>List of Tasks :</h4>
+    <div *ngFor="let item of yarray" class="row mt-1">
+      <div class="col-3 d-none col-md-3 d-md-block"></div>
 
-<h1>List of Tasks :</h1>
-
-<p *ngFor="let item of yarray">
-    {{item}}
-</p>
+      <div class="col-12 col-md-11 list-todo">
+        <p><span class="font-weight-bold">Task</span> : {{ item }}</p>
+      </div>
+      <div class="col-3 d-none col-md-3 d-md-block"></div>
+    </div>
+    <br />
+    <!-- Button for disconnecting/connecting connection between users -->
+    <button style="margin-left: 40%;" class="btn button" (click)="connect()">{{ textContent }}</button>
+  </div>
+</div>
