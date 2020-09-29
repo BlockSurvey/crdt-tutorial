@@ -29,15 +29,21 @@ In this tutorial, we will be using the Yjs NPM module as the CRDT framework. Use
 
 ### Real-time Collaborative Text Editor using CRDT
 
+
 ![](https://cdn-images-1.medium.com/max/1500/1*G1CMih0JRaD5cVgd-2S3kA.gif)
+
 
 ### Real-time Collaborative Text Editor with websocket connection using Yjs NPM module
 
+
 ![](https://cdn-images-1.medium.com/max/1500/1*0YdDkswFLDwtPWStoXAe7A.gif)
+
 
 ### Real-time Collaborative Todo App using CRDT
 
+
 ![](https://cdn-images-1.medium.com/max/1500/1*RikSPbWYG5p30gZomfkjdA.gif)
+
 
 
 ## Summary
@@ -52,7 +58,7 @@ Using the CRDT algorithm different users can easily collaborate in a real-time t
 
 [Real-time-Collaboration - OT vs CRDT](https://www.tiny.cloud/blog/real-time-collaboration-ot-vs-crdt/#:~:text=OT%20trades%20complexity%20for%20the,even%20valid%20for%20your%20schema.)
 
-[CRDT Libraries](CRDT Libraries)
+[CRDT Libraries](https://crdt.tech/implementations)
 
 [Figma Multiplayer Technology using CRDT](https://www.figma.com/blog/how-figmas-multiplayer-technology-works/)
 
