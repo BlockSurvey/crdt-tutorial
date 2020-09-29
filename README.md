@@ -46,11 +46,16 @@ Using the CRDT algorithm different users can easily collaborate in a real-time t
 
 ## References
 
-[Fuzzy-Search](https://www.npmjs.com/package/fuzzy-search)
+[CRDT](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type)
 
-[Fuzzy-Sort](https://www.npmjs.com/package/fuzzysort)
+[Yjs NPM](https://www.npmjs.com/package/yjs)
 
-[Ngbdropdown](https://ng-bootstrap.github.io/#/components/dropdown/api)
+[Real-time-Collaboration - OT vs CRDT](https://www.tiny.cloud/blog/real-time-collaboration-ot-vs-crdt/#:~:text=OT%20trades%20complexity%20for%20the,even%20valid%20for%20your%20schema.)
+
+[CRDT Libraries](CRDT Libraries)
+
+[Figma Multiplayer Technology using CRDT](https://www.figma.com/blog/how-figmas-multiplayer-technology-works/)
+
 
 ## About Blocksurvey
 
