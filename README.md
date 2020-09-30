@@ -1,6 +1,6 @@
 # CRDT-tutorial
 
-![](https://cdn-images-1.medium.com/max/1000/1*4Eokr32mwX3IUzwEPDe0MQ.png)
+![](https://miro.medium.com/max/875/1*4Eokr32mwX3IUzwEPDe0MQ.png)
 
 Many of us have come across a range of real-time collaborative apps that helps teammates to work simultaneously on the same document or project. Apps such as Google Docs or Spreadsheets allow users to edit documents simultaneously. But what happens when we give our users the ability to edit the same document simultaneously?
 
@@ -18,7 +18,7 @@ Collaborative apps can cause divergence if there is no synchronization between t
 
 There are many types of CRDTs. Refer to [this link](https://github.com/pfrazee/crdt_notes/tree/68c5fe81ade109446a9f4c24e03290ec5493031f#portfolio-of-basic-crdts) for a good overview of the types of CRDT. Currently, there are many CRDT frameworks implemented.
 
-Further Reading: [How to build a real-time collaborative app using CRDT in angular?](https://medium.com/blocksurvey/tutorial-how-to-build-a-to-do-using-bi-directional-linking-in-angular-c8db945619e8)
+Further Reading: [How to build a real-time collaborative app using CRDT in angular?](https://medium.com/blocksurvey/tutorial-how-to-build-a-real-time-collaborative-app-using-crdt-in-angular-44098525d5b)
 
 ## Note: 
 In this tutorial, we will be using the Yjs NPM module as the CRDT framework. Users can implement their own design for the text editor. We are using Angular in this tutorial to implement the same.
@@ -30,19 +30,19 @@ In this tutorial, we will be using the Yjs NPM module as the CRDT framework. Use
 ### Real-time Collaborative Text Editor using CRDT
 
 
-![](https://cdn-images-1.medium.com/max/1500/1*G1CMih0JRaD5cVgd-2S3kA.gif)
+![](https://miro.medium.com/max/1250/1*G1CMih0JRaD5cVgd-2S3kA.gif)
 
 
 ### Real-time Collaborative Text Editor with websocket connection using Yjs NPM module
 
 
-![](https://cdn-images-1.medium.com/max/1500/1*0YdDkswFLDwtPWStoXAe7A.gif)
+![](https://miro.medium.com/max/1250/1*0YdDkswFLDwtPWStoXAe7A.gif)
 
 
 ### Real-time Collaborative Todo App using CRDT
 
 
-![](https://cdn-images-1.medium.com/max/1500/1*RikSPbWYG5p30gZomfkjdA.gif)
+![](https://miro.medium.com/max/1250/1*RikSPbWYG5p30gZomfkjdA.gif)
 
 
 
